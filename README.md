@@ -1,41 +1,24 @@
-# Babel Webpack Starter
+# Microposts
+CRUD application built as part of 'Modern JavaScript' with Brad Traversy. This app utilises ES2015 modules in vanilla JavaScript to create, remove, update and delete posts.
 
-A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
+ES2015 code transpiled down to ES5 using Babel and Webpack via NPM.
 
-### Version
-1.1.0
+Live demo: https://lukeprosser.github.io/microposts/
 
-## Usage
+## Additional Technologies
+<ul>
+  <li>Babel</li>
+  <li>Webpack</li>
+  <li>NodeJS</li>
+  <li>NPM</li>
+  <li>Mimic REST API using JSON Server</li>
+  <li>Application served via Webpack dev server during creation.</li>
+</ul>
 
-### Installation
-
-Install the dependencies
-
-```sh
-$ npm install
-```
-
-### Serve
-To serve in the browser  - Runs webpack-dev-server
-
-```sh
-$ npm start
-```
-
-### Build
-Compile and build
-
-```sh
-$ npm run build
-```
-
-## More Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### License
-
-This project is licensed under the MIT License
+## Key Features
+<ul>
+  <li>ES2015 modules in vanilla JS.</li>
+  <li>API configured locally as a static asset and accessed via JSON Server.</li>
+  <li>Create, remove, update and delete posts from the UI and backend.</li>
+  <li>Posts persist to local storage.</li>
+</ul>
